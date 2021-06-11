@@ -43,7 +43,7 @@
                                         JSON.stringify(error)));
          console.log("Made GET AJAX Call to Server at "+showTime());
          
-         const deleteURL = "http://localhost:3000/employees/3";
+         const deleteURL = "http://localhost:3000/employees/4";
          makePromiseCall("DELETE", deleteURL, false)
             .then(responseText => {
                console.log("User Deleted: "+responseText)
